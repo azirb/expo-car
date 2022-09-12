@@ -15,7 +15,7 @@ export class DeliveryService {
   constructor(private req: HttpClient) {
   }
 
-  public getVinNumbers(): Observable<any> {
+  public getVinNumbers(): Observable<string[]> {
     return this.req.get<string[]>(`${environment.requestsServer}/Car`);
   }
 

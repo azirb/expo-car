@@ -15,8 +15,8 @@ export class InfoServerService {
 
   constructor(private req: HttpClient) {}
 
-  public postNewDelivery(info: Delivery): Observable<any> {
-    return this.req.post<any>(`${environment.infoServer}/delivery`, Object.assign({id: uuidv4()}, info))
+  public postNewDelivery(info: Delivery): Observable<Delivery> {
+    return this.req.post<Delivery>(`${environment.infoServer}/delivery`, Object.assign({id: uuidv4()}, info))
   }
 
   public getDeliveries(page: number, limit: number = 10): Observable<HttpResponse<Delivery[]>> {
