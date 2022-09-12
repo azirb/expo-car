@@ -1,0 +1,60 @@
+<div class="wrapper">
+  <div class="order-container">
+    <form class="order-style" [formGroup]="deliveryFormGroup" *ngIf="!showEndScript; else final">
+      <mat-form-field appearance="fill" *ngIf="vinArray$ | async as vins">
+          <mat-label>Vin Number</mat-label>
+          <mat-select class="mat-select" formControlName="vin">
+            <mat-option *ngFor="let number of vins"
+                        class="mat-option"
+                        [value]="number">
+              {{number}}</mat-option>
+          </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>First Name</mat-label>
+        <input matInput placeholder="Like in passport" formControlName="firstName">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Middle Name</mat-label>
+        <input matInput placeholder="Like in passport" formControlName="middleName">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Last Name</mat-label>
+        <input matInput placeholder="Like in passport" formControlName="lastName">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Your phone</mat-label>
+        <input matInput placeholder="with +" formControlName="phone">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Address</mat-label>
+        <input matInput placeholder="City, street, home" formControlName="address">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Date</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="date">
+        <mat-hint>DD.MM.YYYY</mat-hint>
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      <mat-form-field appearance="fill" *ngIf="timeArray$ | async as times">
+        <mat-label>Delivery Time </mat-label>
+        <mat-select formControlName="time">
+          <mat-option *ngFor="let time of times"
+                      [value]="time">
+            {{time}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <button mat-raised-button color="primary" [disabled]="!deliveryFormGroup.valid" (click)="saveDeliveryRequest()">Request delivery</button>
+      <mat-progress-bar *ngIf="isLoading" mode="indeterminate" class="progress"></mat-progress-bar>
+    </form>
+  </div>
+</div>
+
+
+<ng-template #final>
+  <div class="order-style">
+    <span class="finish-text">Thank you for order! Operator will call you!</span>
+  </div>
+</ng-template>
+

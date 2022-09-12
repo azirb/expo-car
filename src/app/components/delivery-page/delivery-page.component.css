@@ -1,0 +1,42 @@
+.wrapper {
+  margin-top: 3%;
+  width: 98%;
+  max-width: 1900px;
+  height: 85%;
+}
+
+.order-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 100%;
+  width: 100%;
+}
+
+.order-style {
+  padding: 5%;
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 50px;
+  -webkit-box-shadow: -4px 14px 24px -4px rgba(15, 15, 15, 0.719);
+  -moz-box-shadow: -4px 14px 24px -4px rgba(15, 15, 15, 0.719);
+  box-shadow: -4px 14px 24px -4px rgba(15, 15, 15, 0.719);
+  background-color: #1A1A1A;
+}
+
+.progress {
+  margin-top: 15px;
+}
+
+.finish-text {
+  text-align: center;
+}

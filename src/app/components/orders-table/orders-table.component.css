@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+}
+
+.container {
+  padding: 5%;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 0px 0px 50px 50px;
+  -webkit-box-shadow: -4px 14px 24px -4px rgba(15, 15, 15, 0.719);
+  -moz-box-shadow: -4px 14px 24px -4px rgba(15, 15, 15, 0.719);
+  box-shadow: -4px 14px 24px -4px rgba(15, 15, 15, 0.719);
+  background-color: #1A1A1A;
+}
+
+.paginator {
+  border-radius: 0 0 50px 50px;
+}
+
+.other-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

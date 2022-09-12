@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  requestsServer : 'https://dev.dealon.pro/frontendTest',
+  infoServer: "http://localhost:3000"
 };
 
 /*

@@ -1,0 +1,88 @@
+{
+  "delivery": [
+    {
+      "id": "b277c95b-464d-4a28-8dc6-c988eed522ca",
+      "vin": "LVTDB21B3MD4011T3",
+      "firstName": "Test",
+      "middleName": "Tester",
+      "lastName": "Testing",
+      "phone": "+78524569812",
+      "address": "qqwweerrtt",
+      "date": "2022-09-12T21:00:00.000Z",
+      "time": "15:00"
+    },
+    {
+      "id": "ceb8704a-9d25-4d44-8045-d3bfae1f3339",
+      "vin": "LVTDB21B3MD4011T3",
+      "firstName": "qqwwee",
+      "middleName": "qqwweerr",
+      "lastName": "qwert",
+      "phone": "+78524561238",
+      "address": "qweqwrewrqewq",
+      "date": "2022-09-12T21:00:00.000Z",
+      "time": "15:00"
+    },
+    {
+      "id": "b9c4dd9b-b245-477b-9176-664223106313",
+      "vin": "LVTDB21B3MD4011T2",
+      "firstName": "qwert",
+      "middleName": "qqwwee",
+      "lastName": "tyuewq",
+      "phone": "+78526381298",
+      "address": "qewqrsfdsfewqewqewq",
+      "date": "2022-09-12T21:00:00.000Z",
+      "time": "15:00"
+    },
+    {
+      "id": "d9456fe4-0399-4d1c-bbe5-af042f1e69b7",
+      "vin": "LVTDB21B3MD4011T2",
+      "firstName": "qqwwee",
+      "middleName": "qwe",
+      "lastName": "wqewqrew",
+      "phone": "+78526394215",
+      "address": "qqwweerr",
+      "date": "2022-09-12T21:00:00.000Z",
+      "time": "15:00"
+    },
+    {
+      "id": "fdcaee2c-c36b-43fb-b8a4-89b6aa3db8cc",
+      "vin": "LVTDB21B3MD4011T8",
+      "firstName": "jkfsldfjsdmliko",
+      "middleName": "fhdjskfhsdjkhsuiofds",
+      "lastName": "fhjsdklhfgjdsiofjdksl`",
+      "phone": "+78569431526",
+      "address": "bfnskvxjkotnremkxhziuornmekw",
+      "date": "2022-09-13T21:00:00.000Z",
+      "time": "21:00"
+    },
+    {
+      "id": "bef1c3e0-b4cb-4f98-bd57-bde8bd94166c",
+      "vin": "LVTDB21B3MD4011T9",
+      "firstName": "yuuiytkuiiu",
+      "middleName": "jghjgjhgghyut",
+      "lastName": "njhgjghjgjg",
+      "phone": "+79854268531",
+      "address": "fsdnbvmhgkjhyfghfdgbvbn",
+      "date": "2022-09-14T21:00:00.000Z",
+      "time": "15:00"
+    }
+  ],
+  "vins": [
+    "LVTDB21B3MD4011T1",
+    "LVTDB21B3MD4011T2",
+    "LVTDB21B3MD4011T3",
+    "LVTDB21B3MD4011T4",
+    "LVTDB21B3MD4011T5",
+    "LVTDB21B3MD4011T6",
+    "LVTDB21B3MD4011T7",
+    "LVTDB21B3MD4011T8",
+    "LVTDB21B3MD4011T9"
+  ],
+  "time": [
+    "11:00",
+    "12:00",
+    "15:00",
+    "21:00",
+    "23:00"
+  ]
+}
